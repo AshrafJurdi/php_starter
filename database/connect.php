@@ -37,6 +37,15 @@ try {
 				   deleted_at datetime NULL
                    )" );
 	
+	// Create table messages
+	$db->exec( "CREATE TABLE IF NOT EXISTS Slider (
+		id integer NOT NULL CONSTRAINT Slider_pk PRIMARY KEY,
+		Title varchar(255) NOT NULL,
+		ImgSrc text NOT NULL,
+		created_at datetime NOT NULL,
+		updated_at datetime NULL,
+		deleted_at datetime NULL
+		)" );
 	/**************************************
 	 * Set initial data                    *
 	 **************************************/

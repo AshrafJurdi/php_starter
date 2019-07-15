@@ -29,3 +29,17 @@ html, body , .layout{
 .user-image img {
     width: 80px;
 }
+
+.side{
+    background: purple;
+}
+.vertical-nav a{
+    color: white;
+    text-decoration: none;
+}
+.vertical-nav ul{
+    list-style: none;
+}
+.content{
+    background: lightgrey;
+}
